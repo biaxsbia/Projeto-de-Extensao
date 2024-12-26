@@ -1,0 +1,179 @@
+/* Estilos Globais para a aplicação */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+form input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+.promotion-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.promotion-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 20px;
+}
+
+.promotion-item {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.promotion-item:hover {
+  transform: scale(1.05);
+}
+
+.promotion-item h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.promotion-item p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.promotion-item a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.promotion-item a:hover {
+  background-color: #0056b3;
+}
+
+.add-promotion-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.add-promotion-button:hover {
+  background-color: #218838;
+}
+
+.promotion-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+
+
+
+.promotion-details h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.promotion-details p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+.promotion-details strong {
+  color: #333;
+}
+
+.promotion-actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.button, .delete-button {
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button {
+  background-color: #007bff;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  border: none;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
