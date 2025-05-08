@@ -1,4 +1,3 @@
-version: '3.8'
 
 services:
   backend:
@@ -17,7 +16,7 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - ./frontend:/app
+      - ./frontend:/src
     depends_on:
       - backend
     networks:
